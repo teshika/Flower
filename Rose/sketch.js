@@ -7,17 +7,18 @@ function setup() {
   createCanvas(500,500);
   frameRate(12);
 
-  sliderD = createSlider(1,10,1);
-  sliderK = createSlider(1,10,1);
+//   sliderD = createSlider(1,10,1);
+//   sliderK = createSlider(1,10,1);
 }
 
 function draw() {
-  k = sliderK.value();
-  d = sliderD.value();
+//   k = sliderK.value();
+//   d = sliderD.value();
   translate(width/2, height/2);
   background(255);
   beginShape();
-  stroke(0);
+  stroke(1);
+  strokeStyle(red);
   strokeWeight(.8);
   // fill(random(0,255);
   for (var a=0; a< TWO_PI*10; a+=.02){
