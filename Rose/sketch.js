@@ -4,7 +4,6 @@ var c= 0;
 var sliderK;
 var sliderD;
 var sliderC;
-var counter=0;
 var colNum;
 var c1=1;
 
@@ -48,6 +47,4 @@ function draw() {
   }
   endShape();
   k+=.01;
-
-
 }
